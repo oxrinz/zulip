@@ -1,10 +1,5 @@
 # zulip
 
-zig milp solver
+A basic single file MILP solver in zig. Currently only support minimization problems.
 
-features:
-- major suboptimality
-- failing tests
-- guaranteed unrealiability
-- co2 emission maximization
-- missing features
+See tests for how to use
