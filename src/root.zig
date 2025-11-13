@@ -18,7 +18,7 @@ const ColMap = struct {
     total_cols: usize,
 };
 
-const Solver = struct {
+pub const Solver = struct {
     allocator: std.mem.Allocator,
     objective: std.ArrayList(f64) = .empty,
     constraints: std.ArrayList(Constraint) = .empty,
